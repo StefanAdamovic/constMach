@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f5f5f5;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.navbar {
+	background-color: #333;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.filter-buttons {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+
+.filter-buttons a {
+	background-color: #2F4F4F;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 16px;
+	margin-right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: transform 0.3s ease-in-out;
+}
+
+.filter-buttons a:hover {
+	background-color: #00BFFF;
+	transform: scale(1.05);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.grid-item {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	transition: transform 0.3s ease-in-out;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item:hover {
+	transform: scale(1.05);
+}
+
+img {
+	width: 100%;
+	max-height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p {
+	margin: 5px 0;
+}
+
+.machine-type {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+button {
+	background-color: #2F4F4F;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #00BFFF;
+}
+
+.navbar {
+	background-color: #2F4F4F;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+.navbar a {
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	color: #00BFFF;
+}
+
+.navbar-links {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-links>* {
+	margin-right: 20px;
+}
+
+.navbar-links .logout {
+	margin-left: auto;
+}
+
+.welcome-info {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.rentPieces {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 40%;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.rentPieces:focus {
+	outline: none;
+	border-color: #4d90fe;
+	box-shadow: 0 0 5px #4d90fe;
+}
