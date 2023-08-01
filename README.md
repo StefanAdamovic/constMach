@@ -1,9 +1,9 @@
-#constMach - Construction Machine Rental Project
+# constMach - Construction Machine Rental Project
 
-Overview
+### Overview
 constMach is a web-based application built using Java, Servlets, MySQL, and JSP (JavaServer Pages). It aims to streamline the process of renting construction machines within a construction company. The project provides an easy-to-use interface for both workers and administrators. Workers can rent machines and specify the required quantity, while administrators can manage machines, stock, and user accounts.
 
-Features
+#### Features
 Machine Rental: Workers can rent construction machines for a specific period and specify the quantity required.
 
 Stock Management: Administrators can add, remove, and update machine details, such as name, category, availability, and rental cost.
@@ -14,7 +14,7 @@ Rent History: The system maintains a rent history to track machine rentals, thei
 
 Repeat Rental: After the rental period ends, workers can rent the same machine package again without the need to re-enter the details.
 
-Getting Started
+#### Getting Started
 To run constMach on your local machine, follow these steps:
 
 Clone the constMach repository from GitHub:
@@ -36,7 +36,7 @@ Deploy the application:
 Deploy the generated WAR file to a Java Servlet Container (e.g., Apache Tomcat).
 Access the application in your web browser at http://localhost:8080/constMach or the appropriate port.
 
-Usage
+#### Usage
 Admin
 As an admin, log in to the application using your credentials.
 From the dashboard, you can manage machines, users, and their accounts.
@@ -48,11 +48,11 @@ Log in using the provided credentials.
 Rent a machine by selecting the desired machine package and specifying the quantity needed.
 After the rental period ends, return the machine, and you can rent the same package again.
 
-Contributing
+#### Contributing
 If you want to contribute to constMach, thanks alot:
 
-License
+#### License
 constMach is free to copy, modify and use.
 
-Contact
+#### Contact
 For any questions or inquiries about the project, stef.adamovic@gmail.com.
